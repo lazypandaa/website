@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>registration form</title>
+        <style>
+                   .center{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width:400;
+        /*height:300;*/
+        /*background:skyblue;*/
+    border-radius:10px;
+}
+        </style>
+    </head>
+<body align="center">
+<form method="post" action="update.php">
+<div class="center">
+    <h1>UPDATE DATA</h1><br>
+<table>
+    
+    <tr><td>pin </td><td><input name="user" type="text" class="form-control" placeholder="enter pin here"></td></tr>
+    <tr><td>name </td><td><input name="password" class="form-control" type="text"></td></tr>
+    <tr><td>1st year </td><td><input type="text" class="form-control" name="fname" ></td></tr>
+    <tr><td>3rd sem </td><td><input type="text" class="form-control" name="lname" ></td></tr>
+    <tr><td>4th sem </td><td><input type="text" class="form-control" name="a" ></td></tr>
+    <tr><td>5th sem </td><td><input type="text" class="form-control" name="b" ></td></tr>
+</table>
+<button type="submit" style="width:90%" class="btn btn-success">insert</button>
+</div>  
+
+</form>
+</body>
+</html>
